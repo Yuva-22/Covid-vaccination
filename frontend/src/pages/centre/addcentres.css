@@ -1,0 +1,43 @@
+.addcentres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerbox
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding:30px;
+    height:500px;
+    width:500px;
+    border-radius:50px;
+}
+
+textarea
+{
+    width:100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+input{
+    width:97%;
+}
+
+.addbtn
+{
+    margin-left:40%;
+    background-color: white;
+    border:1px solid black;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.addbtn:hover{
+    background-color: rgb(196, 243, 251);
+}

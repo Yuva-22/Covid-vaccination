@@ -1,0 +1,25 @@
+.hero-img
+{
+    width:100%;
+    height:92vh;
+    opacity: 0.7;
+    /* margin: 12px; */
+}
+
+.hero
+{
+  display: flex;
+  gap:30px;
+}
+.lefthero
+{
+  flex:1;
+  text-align: left;
+  vertical-align: middle;
+  margin-top:160px;
+  margin-left: 30px;
+}
+.righthero
+{
+  flex:1;
+}

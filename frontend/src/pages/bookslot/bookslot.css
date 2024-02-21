@@ -1,0 +1,28 @@
+.bookslot{
+    background: rgb(112,192,204);
+    background: linear-gradient(90deg, rgba(112,192,204,1) 0%, rgba(167,238,249,1) 31%, rgba(255,255,255,1) 100%);
+}
+
+.slotcontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td,th
+{
+  padding:10px;
+  text-align: start;
+  border:1px solid black;
+}
+
+
+table
+{
+    width:50%;
+    margin-top:40px;
+    margin-bottom:200px;
+    border:1px solid black;
+    height:500px;
+}
