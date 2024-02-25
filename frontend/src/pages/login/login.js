@@ -6,9 +6,9 @@ function Login() {
   const[IsAdmin,setIsAdmin] = useState(false);
   const[IsUser,setIsUser] = useState(false);
   const[adminemail,setAdminEmail] = useState(' ');
-  const[adminpassword,setAdminPassword] = useState(' ');
+  const[adminpassword,setAdminPassword] = useState('');
   const[useremail,setUseremail] = useState(' ');
-  const[userpassword,setUserpassword] = useState(' ');
+  const[userpassword,setUserpassword] = useState('');
   const navigate = useNavigate();
 
   const handleAdminSubmit = (e) => {

@@ -24,7 +24,7 @@
   width:9rem;
   height:100%;
   background:transparent;
-  border:1px solid rgba(110,106,190,1);
+  border:1px solid rgb(112,192,204);
   border-radius:0.8rem;
   font-size: 15px;
   font-weight: 600;
@@ -45,9 +45,10 @@
   left:0;
   width:0;
   height:100%;
-  background:rgb(145, 139, 232);
+  background:rgb(64, 230, 255);
   z-index: -1;
   transition: .5s;
+  /* rgb(145, 139, 232) */
 }
 
 .btnbox .btn:hover::before{
